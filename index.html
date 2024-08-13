@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Signage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .signage {
+        border: 2px solid black;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+      }
+      .cost {
+        color: red;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      #error {
+        color: red;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signage">
+      <h2>CUSTOM SIGNAGE</h2>
+      <label for="nameInput">Enter name:</label><br />
+      <input type="text" id="nameInput" /><br /><br />
+      <button onclick="calculateCost()">SHOW COST</button>
+      <p id="error"></p>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
