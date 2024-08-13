@@ -1,7 +1,11 @@
 # Signage
 
-i dont know what to say sha
+i dont know what to write sha
 
 # Instructions
 
-![Instrcution](/public/images/cover.png)
+![Instrcution](/images/instruction.png)
+
+# User Interface
+
+![User Interface](/images/ui.png)
